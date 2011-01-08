@@ -1,0 +1,34 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bacon (1.1.0)
+    bouncy-castle-java (1.5.0145.2)
+    clipboard (0.9.3)
+      zucker (>= 8)
+    eventmachine (0.12.10-java)
+    git (1.2.5)
+    jeweler (1.5.2)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    jruby-openssl (0.7.2)
+      bouncy-castle-java
+    libwebsocket (0.1.0)
+    pusher-client (0.2.1)
+      eventmachine (~> 0.12.10)
+      libwebsocket (~> 0.1.0)
+    rake (0.8.7)
+    rcov (0.9.9-java)
+    zucker (8)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  bacon
+  bundler (~> 1.0.0)
+  clipboard (>= 0.9.3)
+  jeweler (~> 1.5.2)
+  jruby-openssl (>= 0.7.2)
+  pusher-client (>= 0.2.1)
+  rcov

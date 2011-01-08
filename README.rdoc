@@ -1,6 +1,6 @@
 = copyglue-desktop
 
-Description goes here.
+Desktop (JRuby) client for copyglue, a simple tool to share one clipboard between several machines.
 
 == Contributing to copyglue-desktop
  

@@ -3,6 +3,10 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
+gem "clipboard", ">= 0.9.3"
+gem "pusher-client", ">= 0.2.1"
+gem "jruby-openssl", ">= 0.7.2"
+
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
