@@ -27,6 +27,3 @@ module CopyGlue
     PusherClient.logger = logger
   end
 end
-
-CopyGlue::CGDesktop.logger = Logger.new(STDOUT)
-CopyGlue::CGDesktop::CGApplication.run!
